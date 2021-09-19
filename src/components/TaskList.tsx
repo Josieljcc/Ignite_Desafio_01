@@ -35,6 +35,7 @@ export function TaskList() {
       task.isComplete = !task.isComplete
       modifyTasks[index] = task
       setTasks(modifyTasks)
+      modifica mas não atualiza visualmente
     } */
     const newTasks = tasks.map(task => task.id === id ?{
       ...task,
